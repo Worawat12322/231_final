@@ -8,7 +8,7 @@ int main(){
 	{
 		for(a=0;a<num;a++)
 		{
-			scanf("%d ",&chk);
+			scanf("%d",&chk);
 			if(chk>=1&&chk<=10000)
 			{
 				data[a] = chk;
