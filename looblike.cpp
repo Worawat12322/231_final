@@ -45,9 +45,9 @@ int main(){
 				lo_max[limit]=c;
 			}
 		}
-		for(d=0;d<=limit;d++)
+		for(d=1;d<=limit;d++)
 		{
-			if(d!=0)
+			if(d!=1)
 			{
 				printf(" ");
 			}
