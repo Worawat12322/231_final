@@ -6,7 +6,7 @@ int main(){
 	scanf("%d %d",&n,&c);
 	if((n>0&&n<32750)&&(n>0&&n<32750))
 	{
-		for(k=n;;k++)
+		for(k=n+1;;k++)
 		{
 			chk = k;
 			while(chk!=0)
