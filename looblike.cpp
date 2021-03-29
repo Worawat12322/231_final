@@ -37,7 +37,7 @@ int main(){
 				lo_max[0] = f;
 			}
 		}
-		for(c=lo_max[0]+1;c<max+1;c++)
+		for(c=lo_max[0];c<max+1;c++)
 		{
 			if(max2==most[c])
 			{
