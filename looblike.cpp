@@ -15,7 +15,7 @@ int main(){
 			}
 			else return 0;
 		}
-		max=data[0]; mx_lo[0]=1 ;
+		max=data[0]; mx_lo[0]=0 ;
 		for(b=1;b<num;b++)
 		{
 			if(max<data[b])
@@ -24,7 +24,7 @@ int main(){
 				mx_lo[0]=b;
 			}
 		}
-		for(c=mx_lo[0];c<num;c++)
+		for(c=mx_lo[0]+1;c<num;c++)
 		{
 			if(max==data[c])
 			{
@@ -34,7 +34,7 @@ int main(){
 		}
 		for(d=0;d<=limit;d++)
 		{
-			printf("%d ",mx_lo[d]);
+			printf("%d ",mx_lo[d]+1);
 		}
 	}
 	return 0;
